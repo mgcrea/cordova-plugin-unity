@@ -1,4 +1,4 @@
-# [Cordova Unity](https://github.com/mgcrea/cordova-unity)
+# [Cordova Unity](https://github.com/mgcrea/cordova-unity) [![Release](https://img.shields.io/github/release/mgcrea/cordova-unity.svg)](https://github.com/mgcrea/cordova-unity/releases)
 
 This plugin provides a simple way to integrate and communicate with an Unity view.
 
