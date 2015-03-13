@@ -26,13 +26,20 @@ Using this plugin requires [Cordova iOS](https://github.com/apache/cordova-ios).
 * Check [source](https://github.com/mgcrea/cordova-unity/tree/master/www/Unity.js) for additional configuration.
 
 
-## Developers
+## Communication
+
+- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/cordova). (Tag 'cordova')
+- If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/cordova).
+- If you **found a bug**, open an issue.
+- If you **have a feature request**, open an issue.
+- If you **want to contribute**, submit a pull request.
+
+
+## Contributing
 
 Patches welcome! Send a pull request. Since this is not a part of Cordova Core (which requires a CLA), this should be easier.
 
-Post issues on [Github](https://github.com/mgcrea/cordova-unity/issues)
-
-The latest code (my fork) will always be [here](https://github.com/mgcrea/cordova-unity/tree/master)
+Please submit all pull requests the against master branch. If your pull request contains JavaScript patches or features, you should include relevant unit tests. Thanks!
 
 
 ## Authors
