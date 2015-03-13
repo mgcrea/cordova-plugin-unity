@@ -1,19 +1,20 @@
-# Cordova SecureDeviceIdentifier #
-by [Olivier Louvignes](http://olouv.com)
+# [Cordova Unity](https://github.com/mgcrea/cordova-unity)
 
-## DESCRIPTION ##
-
-* This plugin provides a simple way to integrate and communicate with an Unity view.
+This plugin provides a simple way to integrate and communicate with an Unity view.
 
 * This plugin is built for Cordova >= v2.1.0 with ARC, it has been tested to work without ARC.
 
-## PLUGIN SETUP FOR IOS ##
+* This plugin currently supports iOS.
 
-Using this plugin requires [Cordova iOS](https://github.com/apache/incubator-cordova-ios).
+
+## Plugin setup
+
+Using this plugin requires [Cordova iOS](https://github.com/apache/cordova-ios).
 
 1. `cordova plugin add io.mgcrea.Unity`
 
-## JAVASCRIPT INTERFACE (IOS/ANDROID) ##
+
+## Javascript interface
 
     // After device ready, create a local alias
     var Unity = cordova.plugins.Unity;
@@ -24,7 +25,8 @@ Using this plugin requires [Cordova iOS](https://github.com/apache/incubator-cor
 
 * Check [source](https://github.com/mgcrea/cordova-unity/tree/master/www/Unity.js) for additional configuration.
 
-## BUGS AND CONTRIBUTIONS ##
+
+## Developers
 
 Patches welcome! Send a pull request. Since this is not a part of Cordova Core (which requires a CLA), this should be easier.
 
@@ -32,7 +34,16 @@ Post issues on [Github](https://github.com/mgcrea/cordova-unity/issues)
 
 The latest code (my fork) will always be [here](https://github.com/mgcrea/cordova-unity/tree/master)
 
-## LICENSE ##
+
+## Authors
+
+**Olivier Louvignes**
+
++ http://olouv.com
++ http://github.com/mgcrea
+
+
+## Copyright and license
 
     The MIT License (MIT)
 
@@ -55,10 +66,3 @@ The latest code (my fork) will always be [here](https://github.com/mgcrea/cordov
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-
-## CREDITS ##
-
-Contributors :
-
-* [Olivier Louvignes](http://olouv.com), author.
-
