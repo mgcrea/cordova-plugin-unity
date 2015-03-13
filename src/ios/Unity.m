@@ -11,8 +11,9 @@
 }
 
 @property (nonatomic, strong) UIViewController* unityViewController;
-- (void)coolMethod:(CDVInvokedUrlCommand*)command;
 - (void)show:(CDVInvokedUrlCommand*)command;
+- (void)hide:(CDVInvokedUrlCommand*)command;
+- (void)sendMessage:(CDVInvokedUrlCommand*)command;
 @end
 
 @implementation Unity
