@@ -28,7 +28,7 @@ Using this plugin requires [Cordova iOS](https://github.com/apache/cordova-ios).
 
 ## Communication
 
-- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/cordova). (Tag 'cordova')
+- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/cordova). (Tag `cordova`)
 - If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/cordova).
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
