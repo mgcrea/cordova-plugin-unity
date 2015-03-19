@@ -59,6 +59,19 @@
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
+- (void)pause:(CDVInvokedUrlCommand*)command
+{
+    CDVPluginResult* pluginResult = nil;
+
+    bool state = [[command argumentAtIndex:0] boolValue];
+    DLog(@"pause: [%d]", state ? 1 : 0);
+
+    UnityPause(state);
+
+    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:YES];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
 - (void)sendMessage:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* pluginResult = nil;

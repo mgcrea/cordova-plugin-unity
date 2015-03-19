@@ -21,6 +21,7 @@ Using this plugin requires [Cordova iOS](https://github.com/apache/cordova-ios).
 
     Unity.show({x: 200, y: 200, width: 512, height: 384});
     Unity.sendMessage("foo;bar");
+    Unity.pause(true);
     Unity.hide();
 
 * Check [source](https://github.com/mgcrea/cordova-unity/tree/master/www/Unity.js) for additional configuration.

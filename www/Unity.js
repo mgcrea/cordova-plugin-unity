@@ -24,7 +24,11 @@ exports.show = function(options, success, error) {
 };
 
 exports.hide = function(arg0, success, error) {
-  exec(success, error, 'Unity', 'hide', [arg0]);
+  exec(success, error, 'Unity', 'hide', []);
+};
+
+exports.pause = function(state, success, error) {
+  exec(success, error, 'Unity', 'pause', [!!state]);
 };
 
 exports.sendMessage = function(message, success, error) {
