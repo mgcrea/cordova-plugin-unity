@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-unity",
+  "version": "0.1.1",
+  "description": "Cordova Unity Plugin",
+  "cordova": {
+    "id": "cordova-plugin-unity",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgcrea/cordova-plugin-unity"
+  },
+  "keywords": [
+    "cordova",
+    "unity",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=3.6.0"
+    }
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0"
+}
